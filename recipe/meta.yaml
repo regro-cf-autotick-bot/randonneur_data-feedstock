@@ -1,13 +1,13 @@
 {% set name = "randonneur_data" %}
-{% set version = "0.7.2" %}
+{% set version = "0.8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 59ba83e9d9a550d019f7ea99c9024a69572b23e376e5a401b6255256e547d22c
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 33458191ad3f7ae6f1b45e68ff4b962288afc978273ab4a9894779dc0077398b
 
 build:
   noarch: python
